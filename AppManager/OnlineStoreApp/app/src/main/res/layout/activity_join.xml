@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.JoinActivity">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCreateMeeting"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Create Meeting"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/btnCreateMeeting"
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5sp"
+        android:text="OR"
+        android:textColor="@color/grey_font"
+        android:textSize="20sp" />
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        android:id="@+id/etMeetingId"
+        android:theme="@android:style/Theme.Holo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Meeting Id"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey_font" />
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/etMeetingId"
+        android:id="@+id/btnJoinHostMeeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:text="Join as Host"
+        android:textAllCaps="false" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

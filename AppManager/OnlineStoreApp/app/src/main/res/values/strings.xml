@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Manager App</string>
+    <string name="price_25000">Price: 25000</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

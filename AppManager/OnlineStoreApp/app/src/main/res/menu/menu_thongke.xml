@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tkthang"
+        android:title="Revenue statistics"
+        app:showAsAction="collapseActionView"/>
+    <item android:title="Item statistics"
+        android:id="@+id/tkbanchay"/>
+</menu>
